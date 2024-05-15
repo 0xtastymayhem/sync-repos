@@ -37,7 +37,7 @@ for REPO_DIR in "$PARENT_DIR"/*/; do
     if [[ -n $(git status -s) ]]; then
         echo "Local changes detected. Committing changes..."
         git add .
-        git commit -m "Deployment"
+        git commit -m "Auto-commit: Local changes before synchronizing"
     fi
 
     # Determine the relationship between local and remote
