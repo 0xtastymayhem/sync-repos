@@ -1,0 +1,11 @@
+[Unit]
+Description=GitHub Repository Auto-Sync Service
+After=network.target
+
+[Service]
+ExecStart=/repos/sync-repos/sync_repos.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

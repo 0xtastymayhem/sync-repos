@@ -1,0 +1,10 @@
+[Unit]
+Description=Runs sync_repos.service every 5 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=5min
+Unit=sync_repos.service
+
+[Install]
+WantedBy=timers.target
