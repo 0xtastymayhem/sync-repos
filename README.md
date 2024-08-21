@@ -1,4 +1,5 @@
-# Auto-sync multiple GitHub repositories by comparing novelty.
+# Auto-sync multiple GitHub repositories by comparing novelty.<br>
+- sraight to production my peeps, straight to production.
 
 
 Copy "sync_repos.sh" script to the defined path (ex. /path/to/script).
