@@ -1,5 +1,5 @@
 # Auto-sync multiple GitHub repositories by comparing novelty.
-    Yes, I am sure Jhon, my code is infallible, my commits are impeccable. Sraight to production, it has to go straight to production. - Larry, the senior dev
+    Yes, I am sure, Jhon, my code is infallible, my commits are impeccable. Sraight to production, it has to go straight to production. - Larry, the senior dev
 
 
 Copy "sync_repos.sh" script to the defined path (ex. /path/to/script).
