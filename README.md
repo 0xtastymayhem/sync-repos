@@ -6,7 +6,7 @@ Copy "sync_repos.sh" script to the defined path (ex. /path/to/script).
 Navigate to the path.
 
 ```shell
-cd /path/to/script
+cd /repos/sync-repos
 ```
 
 chmod the script for execution.
